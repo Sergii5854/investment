@@ -1,0 +1,148 @@
+
+.ar h1, .ar h2, .ar p, .ar .main-big-text, .ar .main-small-text, .ar .promo-heading, .ar .promo-text, .ar .promo-blue-text, .ar .promo-btn, .ar .promo-risk, .ar .regulation-text, .ar .regulation-item-heading, .ar .regulation-item-text, .ar .acc-item-text, .ar .acc-heading, .ar .acc-text, .ar .acc-risk, .ar .main-item-text, .ar .acc-btn, .ar .about-text, .ar .about-text-gold, .ar .about-item-heading, .ar .about-item-text, .ar .about-btn, .ar .about-risk, .ar .contact-subheading, .ar .form-risk{
+	direction: rtl;
+}
+
+.ar .about-item-img{
+	float: right;
+	margin-right: 0px;
+	margin-left: 15px;
+}
+.ar .about-item-text {
+    padding-right: 0px;
+}
+.ar .about-item-text {
+    padding-left: 40px;
+}
+.ar .contact-item-img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.ar .contact-item-heading{
+	text-align: center;
+}
+.ar .contact-item-text{
+	text-align: center;
+	width: auto;
+}
+/*-------------qr------------*/
+.ar #FullName {
+  direction: rtl;
+  padding-right: 10px;
+}
+.ar #FirstName{
+	direction: rtl;
+ 	padding-right: 10px;
+}
+.ar #Email {
+  direction: rtl;
+  padding-right: 10px;
+}
+.ar #Telephone{
+	direction: rtl;
+  	padding-right: 10px;
+}
+.ar input[name="PhoneNumber.Number"] {
+  direction: rtl;
+  padding-right: 10px;
+}
+
+.ar .jq-checkbox {
+  float: right!important;
+  margin: 0 0px 0 10px;
+  margin-right: 0px!important;
+  direction: ltr;
+}
+
+.ar .AccountAgree a {
+  float: right!important;
+  width: 90%!important;
+  text-align: right!important;
+}
+.ar .swShortRegistrationContent .swFormGroup input, .ar .swShortRegistrationContent .swFormGroup select{
+  direction: rtl;
+  padding-right: 10px!important;
+}
+.ar .swShortRegistrationContent .swbTelephoneFieldWrapper .intl-tel-input input{
+  direction: ltr;
+}
+.ar .swbAgeConfirmFieldWrapper{
+  direction: rtl;
+}
+.ar #AcceptAgreement{
+  display: table!important;
+}
+.ar .swbAgeConfirmFieldWrapper label {
+  text-align: right!important;
+}
+.ar .jq-checkbox.checked .jq-checkbox__div {
+  margin-right: 4px;
+}
+.ar #AcceptAgreement{
+	width: 15px;
+}
+
+.custom-button {
+	display: none!important;
+}
+
+@media (min-width: 991px) {
+	.ar .main-container .main-heading, .ar .main-container .main-subheading, .ar .main-container .main-big-text, .ar .main-container .main-small-text{
+		padding-right: 70px;
+	}
+	.ar .acc-section .container{
+		text-align: right;
+	}
+	.ar .acc-risk {
+    	margin-left: auto;
+	}
+	.ar .acc-item {
+    	margin-right: 0px;
+    	margin-left: 27px;
+	}
+	.ar .acc-item-wrapper {
+    	justify-content: flex-end;
+	}
+	.ar .acc-item .acc-item {
+    	margin-left: 0px;
+	}
+}
+@media (max-width: 991px) {
+	.ar .about-item-text-wrapper {
+    	display: block;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.ar .swGroupBox{
+		direction: rtl;
+	}
+	.ar .swbActionButtonWrapper {
+	    right: auto!important;
+        left: -4px;
+	}
+	.ar .intl-tel-input .selected-flag{
+		direction: ltr;
+	}
+	.ar .swShortRegistrationContent .swbTelephoneFieldWrapper .intl-tel-input input{
+	    padding-left: 44px;
+	    padding-right: 3px!important;
+	}
+	.ar .flag-container{
+		direction: ltr;
+	}
+	.ar .swbFullNameFieldWrapper {
+    	margin-right: 0!important;
+	}
+	.ar .form-risk{
+		text-align: right;
+	}
+	.ar .swbTelephoneFieldWrapper {
+   		margin-right: 1%;
+	}
+
+}
+@media (max-width: 479px) {
+	.ar .about-item-text-wrapper {
+    	display: table;
+	}
+}

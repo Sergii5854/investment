@@ -1,0 +1,93 @@
+
+.footer-section {
+    height: 128px;
+    background-image: url('../images/footer_bg.jpg');
+}
+.footer-container {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.footer_link{
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.footer-logos-wrapper {
+    width: 409px;
+    margin-top: 19px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.footer-juve-logo {
+    margin-left: 72px;
+}
+.resk-text-section {
+    background-color: #181818;
+}
+.risk-pharag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 0px 30px;
+    text-align: justify;
+}
+.risk-paragraph {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.footer-section .lyon_logo {
+    width: 100%;
+}
+.lyon_logo:after {
+    clear:both;
+    display: table;
+    content: '';
+}
+.lyon_logo .footer-24-logo {
+    margin-top: 19px;
+    float: left;
+}
+.footer-juve-lyon {
+    float: right;
+}
+.ar .risk-paragraph {
+    direction: rtl;
+}
+
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+    .risk-paragraph {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .footer-juve-lyon{
+        width: 135px;
+        position: relative;
+    }
+}
+@media (max-width: 479px) {
+    .footer-24-logo {
+        width: 129px;
+    }
+    .footer-logos-wrapper {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-juve-logo {
+        width: 86px;
+        margin-left: 25px;
+    }
+    .footer-juve-lyon{
+        width: 115px;
+        position: relative;
+    }
+    .risk-pharag{
+        padding: 0px 15px;
+    }
+}

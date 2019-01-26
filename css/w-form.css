@@ -1,0 +1,39 @@
+
+.w-form.already-logged-in #registration_error_tech , ._w-form.already-logged-in #registration_error_tech{
+    position: absolute !important;
+    display: block !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: auto !important;
+}
+
+.w-form.already-logged-in #registration_error_tech p  , ._w-form.already-logged-in #registration_error_tech p {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 100% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    line-height: 27px !important;
+    font-size: 17px !important;
+    color: rgb(255,255,255) !important;
+    padding: 0 5px!important;
+}
+
+.w-form.already-logged-in a , ._w-form.already-logged-in a , .w-form.already-logged-in a:visited , ._w-form.already-logged-in a:visited , .w-form.already-logged-in a:hover , ._w-form.already-logged-in a:hover {
+    color : #ffc900 !important ;
+}
+
+.w-form.already-logged-in #close_registration_error , ._w-form.already-logged-in #close_registration_error{
+    display: none !important;
+}
+
+.w-form.already-logged-in #registration_error_tech::before , ._w-form.already-logged-in #registration_error_tech::before{
+    display: none !important;
+}
+
+.w-form.already-logged-in #registration_error_tech , ._w-form.already-logged-in #registration_error_tech{
+    background: #181818 !important;
+}

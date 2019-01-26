@@ -1,0 +1,213 @@
+._w-form{
+    position: relative;
+}
+
+.tooltip{
+    z-index: 2;
+}
+
+
+/******************************************************/
+/***************     Tooltip animation     ************/
+/******************************************************/
+@keyframes tooltipShow {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+}
+
+@-moz-keyframes tooltipShow {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+}
+
+@-webkit-keyframes tooltipShow {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+}
+
+@-ms-keyframes tooltipShow {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+}
+
+@-o-keyframes tooltipShow {
+    from {
+        outline-color: #fff;
+    }
+    to {
+        outline-color: #000;
+    }
+}
+
+div.tooltip {
+    animation-duration: 0.01s;
+    -o-animation-duration: 0.01s;
+    -ms-animation-duration: 0.01s;
+    -moz-animation-duration: 0.01s;
+    -webkit-animation-duration: 0.01s;
+    animation-name: tooltipShow;
+    -o-animation-name: tooltipShow;
+    -ms-animation-name: tooltipShow;
+    -moz-animation-name: tooltipShow;
+    -webkit-animation-name: tooltipShow;
+}
+/*****************/
+
+
+label,
+.swAcceptNewsLetterField,
+.swCountryField {
+    display: none;
+}
+
+.swAgeConfirmField label{
+    display: inline;
+}
+
+#loading {
+    background: url('../images/qr_images/loading-options.gif') no-repeat;
+    position: absolute;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 999999999999;
+    text-align: center;
+    background-position: center;
+    font-size: 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.swShortRegistrationContent {
+    width: 100%;
+    position: relative;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    padding-left: 10px;
+}
+::-moz-placeholder {
+    color: #000;
+    padding-left: 10px;
+}
+:-ms-input-placeholder {
+    color: #000;
+    padding-left: 10px;
+}
+:-moz-placeholder {
+    color: #000;
+    padding-left: 10px;
+}
+
+.swShortRegistrationContent .swFormGroup input,
+.swShortRegistrationContent .swFormGroup select{
+    width: 100%;
+    font-size: 13px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.swShortRegistrationContent .swAgeConfirmField input{
+    float: left;
+    width: 14px;
+    height: 14px;
+}
+
+.swShortRegistrationContent .swActionButton input{
+    width: 100%;
+    background-color: #ffca00;
+    color: #000;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.swShortRegistrationContent .swbTelephoneFieldWrapper .intl-tel-input{
+    width: 33.3%;
+    float: left;
+    height: 40px;
+}
+
+.swShortRegistrationContent .swbTelephoneFieldWrapper .intl-tel-input input{
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 38px;
+}
+
+
+.swShortRegistrationContent .swbTelephoneFieldWrapper .swbPhoneField {
+    width: 66.6%;
+    float: left;
+    overflow: hidden;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+
+.swbActionButtonWrapper button {
+    width: 100%;
+    background-color: #ffca00;
+    color: #000;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.swbAgeConfirmFieldWrapper label {
+    position: inherit;
+    line-height: 19px;
+    display: table;
+}
+
+/*START - RTL*/
+.rtl .swbEmailField input {
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.rtl .swbAgeConfirmFieldWrapper {
+    text-align: right;
+}
+
+.rtl .swbAgeConfirmFieldWrapper .swbAgeConfirmField {
+    float: right;
+    margin-left: 5px;
+}
+/*END - RTL*/

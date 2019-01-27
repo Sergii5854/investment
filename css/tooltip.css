@@ -81,7 +81,7 @@ label,
 }
 
 #loading {
-    background: url('../images/qr_images/loading-options.gif') no-repeat;
+    background: url('../images/loading-options.gif') no-repeat;
     position: absolute;
     background-color: rgba(0,0,0,0.85);
     z-index: 999999999999;
